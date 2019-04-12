@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">FOROOM</string>
+    <string name="textview">Hello Text</string>
+</resources>
