@@ -14,7 +14,7 @@
     android:id="@+id/depan"
     android:clipToOutLine="true"
 
-    android:background="@drawable/background"
+    android:background="@drawable/bg"
     android:elevation="4dp"
     android:orientation="vertical"
     xmlns:android="http://schemas.android.com/apk/res/android">
@@ -118,12 +118,13 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:ems="10"
+        android:text=""
         android:inputType="textEmailAddress"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4"
         android:background="@drawable/border_radius"
-        android:padding="10dp"/>
+        android:paddingLeft="20dp"/>
 
     <EditText
         android:id="@+id/editText4"
@@ -140,7 +141,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3"
         android:background="@drawable/border_radius"
-        android:padding="10dp"
+        android:paddingRight="20dp"
         />
 
     <Button
@@ -149,7 +150,6 @@
         android:layout_height="36dp"
         android:layout_margin="0dp"
         android:background="@drawable/signinbtneffect"
-
         android:minWidth="64dp"
         android:textColor="#ffffff"
         android:text="Sign In"
